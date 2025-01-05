@@ -1,5 +1,4 @@
-/* 기본 스타일 */
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +11,6 @@ body {
     line-height: 1.6;
 }
 
-/* 헤더 스타일 */
 header {
     background: linear-gradient(135deg, #4caf50, #2e7d32);
     padding: 20px;
@@ -28,8 +26,6 @@ header h1 {
 header p {
     font-size: 1.2rem;
 }
-
-/* 메인 콘텐츠 스타일 */
 main {
     max-width: 1200px;
     margin: 40px auto;
@@ -69,7 +65,6 @@ ul li {
     margin-bottom: 10px;
 }
 
-/* 버튼 스타일 */
 .button-container {
     text-align: center;
     margin-top: 30px;
@@ -93,7 +88,6 @@ ul li {
     transform: scale(1.05);
 }
 
-/* 푸터 스타일 */
 footer {
     text-align: center;
     padding: 20px;
